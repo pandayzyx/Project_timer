@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="timer.css" />
+	</head>
+	<body>
+		
+		<div id="count"><h1>TIMER</h1></div>
+
+		<!-- Taking input value from users -->
+		<div id="input">
+			<input id="hrs" type="number" placeholder="hrs" />
+			<input id="mins" type="number" placeholder="min" />
+			<input id="sec" type="text" placeholder="sec" />
+		</div>
+
+
+         <!-- Div for displaying the timer values -->
+		<div id="show">
+			<div class="show">
+				<div class="floatleft">00</div>
+				<div class="floatright">hr</div>
+			</div>
+
+			<div class="show">
+				<div class="floatleft">00</div>
+				<div class="floatright">m</div>
+			</div>
+
+			<div class="show">
+				<div class="floatleft">00</div>
+				<div class="floatright">s</div>
+			</div>
+		</div>
+
+
+		<!-- Div btn contains all the button required for timer functionality -->
+		<div id="btn">
+			<button id="start">Start</button>
+			<button id="stop">Pause</button>
+			<button id="reset">Reset</button>
+		</div>
+
+       <!-- Div containing audio file for playing audio once timer stops -->
+		<div id="audio"></div>
+
+		<script src="timer.js"></script>
+	</body>
+</html>
