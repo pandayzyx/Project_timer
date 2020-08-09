@@ -6,7 +6,7 @@ var resetbtn = document.getElementById("reset");
 var div = document.getElementsByClassName("floatleft");
 var inputs = document.querySelectorAll("input");
 var x;
-alert("Timer")
+
 
 //Function to start timer
 function start() {
